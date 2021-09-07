@@ -1,0 +1,10 @@
+.gallery_box{
+    background-color: var(--gallery);
+}
+.gallery_footer{
+    width: 200px;
+    margin: auto;
+    background: var(--blue);
+    text-align: center;
+    color: white;
+}

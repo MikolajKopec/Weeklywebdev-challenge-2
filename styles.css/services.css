@@ -1,0 +1,33 @@
+
+.services_box{
+  background-color: var(--services);
+  height: 100%
+}
+
+.card_text{
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.card_icon{
+  text-align: right;
+  border-left: 1px solid gray;
+  padding: 15px;
+  width: 35%;
+}
+.button_services{
+  background-color: #fff;
+}
+.services_image{
+  width: 350px;
+
+}
+.services_box .image_box::after{
+  content: 'Our Services';
+  color: white;
+  font-size: 5em;
+  position: absolute;
+  left: 0;
+  bottom: 130px;
+  font-weight: 700;
+}

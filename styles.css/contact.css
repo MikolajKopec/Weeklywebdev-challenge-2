@@ -1,0 +1,19 @@
+.contact_box{
+    background-image: url(/img/footer/footer-background.png);
+    background-size: cover;
+    background-position: center;
+}
+.contact_box input,.contact_box textarea{
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: rgba(123,221,220,0.5);
+    border: none;
+}
+.contact_box input::placeholder,.contact_box textarea::placeholder{
+    color: white;
+}
+.contact_box input:focus,.contact_box textarea:focus{
+    border-left: 5px solid #355b82;
+    background-color: #00c4c4
+}

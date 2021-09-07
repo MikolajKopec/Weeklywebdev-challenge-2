@@ -1,0 +1,6 @@
+.blog_box{
+    background: var(--blog);
+}
+.blog_box .button{
+    background: var(--red);
+}

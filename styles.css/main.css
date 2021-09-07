@@ -1,0 +1,65 @@
+:root{
+  /* // colors */
+  --black:#262626;
+  --gray:#b9b9b9;
+  --orange:#ff6033;
+  --blue:#5585a2;
+  --green:#96b92c;
+  --red:#f72b3b;
+  --pink:#ff2b58;
+  --blueForm:rgba(113,214,212,0.84);
+  --about:#00b1b1;
+  --services:#70bfff;
+  --gallery:#ffe92f;
+  --blog:#b07cf7;
+  --footer:#262626;
+  }
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+h2{
+  font-weight: 700;
+  font-size: 1em;
+}
+
+.container {
+  height: 100%;
+}
+
+.button {
+  
+  border: none;
+  padding: 8px 15px;
+  -webkit-box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.58);
+          box-shadow: 0px 5px 10px 1px rgba(0, 0, 0, 0.58);
+}
+
+.row {
+  height: 100%;
+}
+.header{
+  margin: auto;
+}
+.header p{
+  width: 50%;
+  margin: auto;
+}
+.footer{
+  background-color: var(--black);
+}
+.footer,.footer .logo{
+  color: var(--gray);
+}
+.pink_color{
+  color: var(--pink);
+}

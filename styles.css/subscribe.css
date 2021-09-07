@@ -1,0 +1,14 @@
+.subscribe_box{
+    background-image: url(/img/body-subscribe/body-subscribe-background.png);
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.subscribe_box .button{
+    background-color: var(--green);
+    color: white;
+
+}
+.subscribe_mail{
+    width: 60%;
+}
